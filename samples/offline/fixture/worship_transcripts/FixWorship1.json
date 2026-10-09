@@ -1,0 +1,79 @@
+{
+ "id": "FixWorship1",
+ "language": "sw",
+ "model": "medium",
+ "source": "whisper-sw",
+ "duration": 400,
+ "segments": [
+  {
+   "start": 0,
+   "end": 9,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 10,
+   "end": 19,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 20,
+   "end": 29,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 30,
+   "end": 39,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 40,
+   "end": 49,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 50,
+   "end": 59,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 60,
+   "end": 69,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 70,
+   "end": 79,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 80,
+   "end": 89,
+   "text": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana"
+  },
+  {
+   "start": 200,
+   "end": 220,
+   "text": "nje ya lango nje ya lango"
+  },
+  {
+   "start": 300,
+   "end": 315,
+   "text": "lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala"
+  },
+  {
+   "start": 320,
+   "end": 335,
+   "text": "lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala"
+  },
+  {
+   "start": 340,
+   "end": 355,
+   "text": "lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala"
+  },
+  {
+   "start": 360,
+   "end": 375,
+   "text": "lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala"
+  }
+ ]
+}

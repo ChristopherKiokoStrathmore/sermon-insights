@@ -1,0 +1,100 @@
+- pattern: usifiwe mbi|uzi piwe mbig|twa kumi
+  hint: '''Haleluya usifiwe, usifiwe mbinguni, duniani twakusifu'' (title/artist not found; not Paul Clement''s ''Umezungukwa
+    na Sifa'')'
+- pattern: ulimi|uki rikwa|unkiri
+  hint: '''Yesu ni Bwana, amefufuka... kila ulimi ukiri kwamba Yesu ni Bwana'' (Phil 2 chorus)'
+- pattern: yule yule
+  hint: '''Yesu ni yule yule jana, leo na hata milele'''
+- pattern: kama yawe|kama yahweh
+  hint: '''Yahweh Yahweh, hakuna Mungu kama Yahweh'''
+- pattern: analea|ana lea|wanalea|na lea
+  hint: '''Kimbilia Yesu, analea'' chorus'
+- pattern: kulia kush|kulia kucho
+  hint: '''Kulia kushoto, jina la Yesu li juu'''
+- pattern: nakwita|na kwita|wita yesu
+  hint: '''Nakuita Yesu'''
+- pattern: siwezi|bini siwe
+  hint: '''Bila wewe siwezi'''
+- pattern: my god is good
+  hint: English/Nigerian 'My God is good oh' praise chorus
+- pattern: tunainua|ishara ya iba|isharaya|nishara|tunaku wabudu|tunakua budu
+  hint: '''Sisi tunakuabudu, mikono yetu tunainua, ni ishara ya ibada kwako'' (recurring chorus)'
+- pattern: mwenitend|menitend|umenitend|nintenga wema|meditendawe|mweni tendawe|nite nawema|kwenitenda|nite niaweema
+  hint: '''Utukufu wako na heshima yako... umenitendea wema'' (always sung next to ''Bwana Nimerudi Tena''; may be part of
+    the same medley)'
+- pattern: kusahau|ushuda
+  hint: '''Yale umenitendea Bwana siwezi kusahau, kwa kuwa yote kwangu ni ushuhuda'''
+- pattern: sifubwana|sifubona|sifubanda|sifu wana|sifu bwana
+  hint: '''Sifu Bwana, amefanya maajabu'' chorus'
+- pattern: mwaka uu|mwaka wabona
+  hint: '''Mwaka huu ni mwaka wa Bwana, mwaka huu tutabarikiwa'''
+- pattern: siku hi
+  hint: '''Siku hii tunabarikiwa'''
+- pattern: unastaili|unasahili|unastahili|una saili
+  hint: '''Unastahili kuabudiwa'' chorus'
+- pattern: anawweza|kimiliyo
+  hint: '''Anaweza, Mwana wa Mungu, Yesu anaweza... kimbilio'''
+- pattern: ninajuwa wewe|ninajua lewe|ninajua lewamba
+  hint: '''Bwana ninajua wewe unanipenda'''
+- pattern: echima yahali|hibada yamoe|ipada ya moyo
+  hint: '''Heshima ya hali ya juu Bwana wastahili, ibada ya moyo wangu Bwana nakutolea'''
+- pattern: tembea
+  hint: '''Tembea tembea, zunguka zunguka, inama inuka, useme ni Bwana'' chorus'
+- pattern: inuwa mikono
+  hint: '''Inua mikono useme ni Bwana'' chorus'
+- pattern: sijaa unakama|unangubunamna
+  hint: '''Sijaona kama wewe, unanipenda namna hii'' (lyrics differ from Patrick Kubuya''s ''Sijaona Kama Wewe'')'
+- pattern: jina la yesu|power in your name
+  hint: '''Jina la Yesu, jina lenye uwezo / mamlaka'' + ''There is power in your name'''
+- pattern: shukuruni
+  hint: '''Shukuruni Yahweh kwa kuwa ni mwema, fadhili zake ni za milele'' (Psalm 136 chorus)'
+- pattern: fadili za|fwadili
+  hint: '''Fadhili za Bwana ni za milele'' chorus'
+- pattern: he is goodo|in the morning
+  hint: English 'He is good, I will sing to Him... in the morning, in the afternoon, in the evening'
+- pattern: covenant keeping
+  hint: '''You are the covenant keeping God'' (Victoria Orenze has a song of this name - verify)'
+- pattern: asante elohim
+  hint: '''Asante Elohim, kwa kuwa wewe u mwema'''
+- pattern: nizako ewe mungu|utukupuli zako|nizanatuko|sifa na utukufu
+  hint: '''Sifa na utukufu ni zako, ewe Mungu wangu'' chorus'
+- pattern: peniwana|mpeni
+  hint: '''Mpeni Bwana utukufu na nguvu'' (Psalm 29 chorus)'
+- pattern: yesu ni wana|jiku jote
+  hint: '''Siku zote... Yesu ni Bwana'' chorus'
+- pattern: kilele
+  hint: '''Tutafika kilele'' chorus'
+- pattern: wawajabu|wajabu
+  hint: '''Wewe ni wa ajabu'' chorus'
+- pattern: lifting higher|lift you higher
+  hint: English 'We lift you higher' chorus
+- pattern: ebeneza|ebenezo|ebenen
+  hint: '''Ebenezer'' chorus (not the Paul Clement or Angela Chibalonza songs)'
+- pattern: nani kamawe|nani kama wewe|nani kamawewe
+  hint: '''Nani kama wewe'' chorus'
+- pattern: waweza|wawesa|watosha|wanweza
+  hint: '''Waweza milele, watosha milele'' chorus'
+- pattern: ntai|enkai|ase, ase
+  hint: Maa 'Ashe Enkai' (thank you, God) chorus
+- pattern: vigele
+  hint: '''Piga vigelegele kwa furaha'' praise chorus'
+- pattern: nipata baba|nipata mungu
+  hint: '''Nimepata Baba, nimepata Mungu wangu'''
+- pattern: kama siyo
+  hint: '''Kama si wewe Bwana...'''
+- pattern: ume tenda mema|me tenda mema|tenda mema
+  hint: '''Ametenda mema, huyu Yesu ni wa maana sana'''
+- pattern: ametenda maku|ametene maku
+  hint: '''Bwana wa majeshi ametenda makuu'''
+- pattern: mshindi|mshini|ushini
+  hint: '''Yesu ni mshindi'' chorus'
+- pattern: hakuna|akuna
+  hint: '''Hakuna (Mungu) kama wewe'' chorus'
+- pattern: yawe|yahweh|jeoba|jehovah|che oba
+  hint: '''Yahweh / Jehovah'' names-of-God chorus'
+- pattern: king of kings|lord of lords
+  hint: English 'King of kings, Lord of lords' worship
+- pattern: tumainama|tunainama|tuna inama|binainuka|wena inama|unainama|tuna ina
+  hint: '''Tunainama, tunainuka'' chorus'
+- pattern: muamba|mwamba
+  hint: '''Wewe ni mwamba... Yesu umeshinda, Simba wa Yuda'''

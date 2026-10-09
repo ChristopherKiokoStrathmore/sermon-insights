@@ -1,0 +1,41 @@
+# Copy to sermon.yaml and edit. Paths are relative to this file.
+channel: "@example-fellowship"
+since: "2025-01-01"
+languages: [sw, en]
+network: true
+# offline_fixture: samples/offline/fixture
+cache_dir: data
+output: data/sermon_insights.xlsx
+# Folder you upload audio into for the Colab notebook. No Drive file ids.
+drive_dir:
+whisper:
+  # cpu: small / int8. cuda (Colab T4): medium / float16. See notebooks/colab_transcribe.ipynb.
+  model: small
+  device: cpu
+  compute_type: int8
+  language: sw
+  cpu_threads: 8
+throttle:
+  between_videos_s: 8
+  request_sleep_s: 2
+  subtitle_sleep_s: 6
+  ytsearch_sleep_s: 4
+  retries: [30, 60, 90]
+detect:
+  bin_s: 60
+  min_words: 25
+  gap_bins: 3
+  max_music_tags: 0
+topics:
+  # auto uses BERTopic once you have min_docs sermons and the [topics] extra.
+  # keyword keeps the seeded patterns and does not download a model.
+  backend: auto
+  min_docs: 8
+  embedding_model: paraphrase-multilingual-MiniLM-L12-v2
+summary:
+  # lexical is extractive and offline. embedding ranks the same sentences with
+  # sentence-transformers and only runs when you set backend: embedding.
+  backend: lexical
+  sentences: 3
+# worship_manual: worship_manual.json
+export_csv: true

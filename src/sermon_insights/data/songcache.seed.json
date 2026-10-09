@@ -1,0 +1,28 @@
+{
+ "Uongezeke Yesu": {
+  "artist": "Boaz Danken",
+  "conf": "high",
+  "keys": [
+   "wewe uongezeke",
+   "mimi nipungue",
+   "uongezeke yesu",
+   "uongezeke sana"
+  ],
+  "wkeys": [],
+  "link": "https://www.youtube.com/watch?v=YG7ajzYyE1I",
+  "linknote": "Published worship song. Official video on the artist's channel.",
+  "source": "fixture seed"
+ },
+ "Nje ya Lango": {
+  "artist": "Florence Mureithi",
+  "conf": "high",
+  "keys": [
+   "nje ya lango"
+  ],
+  "wkeys": [],
+  "link": "https://www.youtube.com/watch?v=jUZ0YrQB2EA",
+  "linknote": "Published worship song.",
+  "source": "fixture seed"
+ },
+ "_queries": {}
+}

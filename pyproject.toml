@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sermon-insights"
+version = "0.1.0"
+description = "Public-video sermon, scripture, and worship-song notes from any church YouTube channel. No API keys."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Chris Nguu" }]
+keywords = ["sermon", "youtube", "kiswahili", "scripture", "worship"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Religion",
+]
+dependencies = [
+    "duckdb==1.5.6",
+    "faster-whisper==1.2.1",
+    "openpyxl==3.1.5",
+    "PyYAML==6.0.3",
+    "rapidfuzz==3.14.6",
+    "youtube-transcript-api==1.2.4",
+    "yt-dlp==2026.8.19",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "nvidia-cublas-cu12==12.9.2.10",
+    "nvidia-cudnn-cu12==9.27.0.42",
+]
+topics = [
+    "bertopic==0.17.4",
+    "sentence-transformers==5.1.2",
+]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.16.10",
+]
+
+[project.scripts]
+sermon = "sermon_insights.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ChristopherKiokoStrathmore/sermon-insights"
+Repository = "https://github.com/ChristopherKiokoStrathmore/sermon-insights"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sermon_insights = ["languages/*.yaml", "data/*.yaml", "data/*.json", "data/*.txt"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
