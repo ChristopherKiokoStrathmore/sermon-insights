@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# sermon-insights local runs: audio, caches, databases, channel dumps
+/data/
+/cache/
+/audio/
+/outputs/
+/subs/
+/transcripts/
+/worship_transcripts/
+/meta/
+/raw/
+*.duckdb
+*.duckdb.wal
+*.webm
+*.m4a
+*.opus
+*.mp3
+*.wav
+*.part
+/songcache.json

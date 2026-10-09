@@ -1,0 +1,119 @@
+{
+ "id": "FixSermon1a",
+ "language": "sw",
+ "model": "medium",
+ "source": "whisper-sw",
+ "duration": 1320,
+ "segments": [
+  {
+   "start": 0,
+   "end": 50,
+   "text": "Tufungue biblia. Tusome Wakorintho wa kwanza kifungu cha kumi na tatu mstari wa nne. Upendo huvumilia. Familia inajengwa kwa upendo. Upendo hujenga familia na ndoa, na ndoa inasimama pale upendo unapobaki. Leo tunasoma jinsi upendo unavyolinda familia, na jinsi ndoa inavyohitaji upendo kila siku. Hii ndiyo neno la leo kwa kila familia inayosikiliza. wa wb wc wd we wf wg wh wi wj wk wl wm wn wo wp wq wr ws wt wu wv ww wx wy wz waa wab wac wad wae waf."
+  },
+  {
+   "start": 60,
+   "end": 110,
+   "text": "Upendo unajenga familia siku hii. wao wap waq war was wat wau wav waw wax way waz wba wbb wbc wbd wbe wbf wbg wbh wbi wbj wbk wbl wbm wbn wbo wbp wbq wbr wbs wbt."
+  },
+  {
+   "start": 120,
+   "end": 170,
+   "text": "Upendo hujenga familia na ndoa. Love bears all things in a family. wcc wcd wce wcf wcg wch wci wcj wck wcl wcm wcn wco wcp wcq wcr wcs wct wcu wcv wcw wcx wcy wcz wda wdb wdc wdd wde wdf wdg wdh."
+  },
+  {
+   "start": 180,
+   "end": 230,
+   "text": "Upendo unajenga familia siku hii. wdq wdr wds wdt wdu wdv wdw wdx wdy wdz wea web wec wed wee wef weg weh wei wej wek wel wem wen weo wep weq wer wes wet weu wev."
+  },
+  {
+   "start": 240,
+   "end": 290,
+   "text": "Upendo wa familia unalinda ndoa. Love keeps a family together. wfe wff wfg wfh wfi wfj wfk wfl wfm wfn wfo wfp wfq wfr wfs wft wfu wfv wfw wfx wfy wfz wga wgb wgc wgd wge wgf wgg wgh wgi wgj."
+  },
+  {
+   "start": 300,
+   "end": 350,
+   "text": "Upendo unajenga familia siku hii. wgs wgt wgu wgv wgw wgx wgy wgz wha whb whc whd whe whf whg whh whi whj whk whl whm whn who whp whq whr whs wht whu whv whw whx."
+  },
+  {
+   "start": 360,
+   "end": 410,
+   "text": "Familia inahitaji upendo na ndoa inahitaji upendo. wig wih wii wij wik wil wim win wio wip wiq wir wis wit wiu wiv wiw wix wiy wiz wja wjb wjc wjd wje wjf wjg wjh wji wjj wjk wjl."
+  },
+  {
+   "start": 420,
+   "end": 470,
+   "text": "Upendo unajenga familia siku hii. wju wjv wjw wjx wjy wjz wka wkb wkc wkd wke wkf wkg wkh wki wkj wkk wkl wkm wkn wko wkp wkq wkr wks wkt wku wkv wkw wkx wky wkz."
+  },
+  {
+   "start": 480,
+   "end": 530,
+   "text": "Zaburi sura ya ishirini na tatu mstari wa kwanza. Bwana ndiye mchungaji wangu na upendo wake ni wa milele. wli wlj wlk wll wlm wln wlo wlp wlq wlr wls wlt wlu wlv wlw wlx wly wlz wma wmb wmc wmd wme wmf wmg wmh wmi wmj wmk wml wmm wmn."
+  },
+  {
+   "start": 540,
+   "end": 590,
+   "text": "Upendo unajenga familia siku hii. wmw wmx wmy wmz wna wnb wnc wnd wne wnf wng wnh wni wnj wnk wnl wnm wnn wno wnp wnq wnr wns wnt wnu wnv wnw wnx wny wnz woa wob."
+  },
+  {
+   "start": 600,
+   "end": 650,
+   "text": "Upendo ndio ujumbe wa familia. Love is the message for a family. wok wol wom won woo wop woq wor wos wot wou wov wow wox woy woz wpa wpb wpc wpd wpe wpf wpg wph wpi wpj wpk wpl wpm wpn wpo wpp."
+  },
+  {
+   "start": 660,
+   "end": 710,
+   "text": "Upendo unajenga familia siku hii. wpy wpz wqa wqb wqc wqd wqe wqf wqg wqh wqi wqj wqk wql wqm wqn wqo wqp wqq wqr wqs wqt wqu wqv wqw wqx wqy wqz wra wrb wrc wrd."
+  },
+  {
+   "start": 720,
+   "end": 770,
+   "text": "Upendo unajenga familia siku hii. wrm wrn wro wrp wrq wrr wrs wrt wru wrv wrw wrx wry wrz wsa wsb wsc wsd wse wsf wsg wsh wsi wsj wsk wsl wsm wsn wso wsp wsq wsr."
+  },
+  {
+   "start": 780,
+   "end": 830,
+   "text": "Upendo unajenga familia siku hii. wta wtb wtc wtd wte wtf wtg wth wti wtj wtk wtl wtm wtn wto wtp wtq wtr wts wtt wtu wtv wtw wtx wty wtz wua wub wuc wud wue wuf."
+  },
+  {
+   "start": 840,
+   "end": 890,
+   "text": "Ndoa inasimama kwa upendo. A family stands when love stays. wuo wup wuq wur wus wut wuu wuv wuw wux wuy wuz wva wvb wvc wvd wve wvf wvg wvh wvi wvj wvk wvl wvm wvn wvo wvp wvq wvr wvs wvt."
+  },
+  {
+   "start": 900,
+   "end": 950,
+   "text": "Upendo unajenga familia siku hii. wwc wwd wwe wwf wwg wwh wwi wwj wwk wwl wwm wwn wwo wwp wwq wwr wws wwt wwu wwv www wwx wwy wwz wxa wxb wxc wxd wxe wxf wxg wxh."
+  },
+  {
+   "start": 960,
+   "end": 1010,
+   "text": "Upendo unajenga familia siku hii. wxq wxr wxs wxt wxu wxv wxw wxx wxy wxz wya wyb wyc wyd wye wyf wyg wyh wyi wyj wyk wyl wym wyn wyo wyp wyq wyr wys wyt wyu wyv."
+  },
+  {
+   "start": 1020,
+   "end": 1070,
+   "text": "Upendo unajenga familia siku hii. wze wzf wzg wzh wzi wzj wzk wzl wzm wzn wzo wzp wzq wzr wzs wzt wzu wzv wzw wzx wzy wzz waaa waab waac waad waae waaf waag waah waai waaj."
+  },
+  {
+   "start": 1080,
+   "end": 1130,
+   "text": "Upendo unajenga familia siku hii. waas waat waau waav waaw waax waay waaz waba wabb wabc wabd wabe wabf wabg wabh wabi wabj wabk wabl wabm wabn wabo wabp wabq wabr wabs wabt wabu wabv wabw wabx."
+  },
+  {
+   "start": 1140,
+   "end": 1190,
+   "text": "Upendo unajenga familia siku hii. wacg wach waci wacj wack wacl wacm wacn waco wacp wacq wacr wacs wact wacu wacv wacw wacx wacy wacz wada wadb wadc wadd wade wadf wadg wadh wadi wadj wadk wadl."
+  },
+  {
+   "start": 1200,
+   "end": 1250,
+   "text": "Upendo unajenga familia siku hii. wadu wadv wadw wadx wady wadz waea waeb waec waed waee waef waeg waeh waei waej waek wael waem waen waeo waep waeq waer waes waet waeu waev waew waex waey waez."
+  },
+  {
+   "start": 1260,
+   "end": 1310,
+   "text": "Tuombe sasa. Upendo na familia vinaendelea. wafi wafj wafk wafl wafm wafn wafo wafp wafq wafr wafs waft wafu wafv wafw wafx wafy wafz waga wagb wagc wagd wage wagf wagg wagh wagi wagj wagk wagl wagm wagn."
+  }
+ ]
+}

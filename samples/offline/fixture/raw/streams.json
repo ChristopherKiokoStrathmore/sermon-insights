@@ -1,0 +1,39 @@
+{
+ "id": "fixture-streams",
+ "entries": [
+  {
+   "id": "FixSermon1a",
+   "title": "WORD || 15 JUNE 2025",
+   "duration": 1320,
+   "upload_date": "20250615",
+   "live_status": "was_live",
+   "availability": "public",
+   "url": "https://www.youtube.com/watch?v=FixSermon1a"
+  },
+  {
+   "id": "FixWorship1",
+   "title": "PRAISE AND WORSHIP || 15 JUNE 2025",
+   "duration": 400,
+   "upload_date": "20250615",
+   "live_status": "was_live",
+   "availability": "public",
+   "url": "https://www.youtube.com/watch?v=FixWorship1"
+  },
+  {
+   "id": "OldSermon01",
+   "title": "WORD || 01 DEC 2024",
+   "duration": 1800,
+   "upload_date": "20241201",
+   "live_status": "was_live",
+   "availability": "public"
+  },
+  {
+   "id": "PrivateVid1",
+   "title": "[Private video]",
+   "duration": 1800,
+   "upload_date": "20250601",
+   "availability": "private",
+   "live_status": "was_live"
+  }
+ ]
+}

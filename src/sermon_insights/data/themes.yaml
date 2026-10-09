@@ -1,0 +1,98 @@
+- name: Faith & Healing
+  pattern: \bimani\b|uponyaji|kuponya|ponywa|\bfaith\b|\bheal|miujiza|muujiza
+  seeds:
+  - imani
+  - uponyaji
+  - faith
+  - heal
+  - miujiza
+- name: Holiness & God's Presence
+  pattern: sanduku|agano|utakatifu|takatifu|uwepo|\bholy\b|holiness|dhambi
+  seeds:
+  - sanduku
+  - agano
+  - utakatifu
+  - holy
+  - dhambi
+- name: Grace & Salvation
+  pattern: \bneema\b|wokovu|okoka|okolewa|msalaba|damu ya yesu|\bgrace\b|salvation|\bsaved\b
+  seeds:
+  - neema
+  - wokovu
+  - okoka
+  - msalaba
+  - grace
+  - salvation
+- name: Prayer
+  pattern: maombi|\bomba\b|kuomba|tuombe|\bprayer|\bpray\b
+  seeds:
+  - maombi
+  - omba
+  - kuomba
+  - tuombe
+  - prayer
+  - pray
+- name: Worship & Praise
+  pattern: kuabudu|\bibada\b|\bworship\b|\bsifa\b|kusifu
+  seeds:
+  - kuabudu
+  - ibada
+  - worship
+  - sifa
+  - kusifu
+- name: Giving & Stewardship
+  pattern: sadaka|sandaka|\bzaka\b|fungu la kumi|offering|\btithe
+  seeds:
+  - sadaka
+  - zaka
+  - fungu
+  - offering
+  - tithe
+- name: Hope & Perseverance
+  pattern: tumaini|subiri|vumilia|uvumilivu|majaribu|\bhope\b|kata tamaa
+  seeds:
+  - tumaini
+  - subiri
+  - vumilia
+  - hope
+  - majaribu
+- name: Love & Relationships
+  pattern: upendo|\bpenda\b|kupenda|\bndoa\b|familia|\blove\b|marriage
+  seeds:
+  - upendo
+  - penda
+  - ndoa
+  - familia
+  - love
+  - marriage
+- name: Leadership & Service
+  pattern: kiongozi|viongozi|huduma|mtumishi|watumishi|\bserve\b|leadership
+  seeds:
+  - kiongozi
+  - huduma
+  - mtumishi
+  - serve
+  - leadership
+- name: Holy Spirit & Spiritual Growth
+  pattern: roho mtakatifu|\bupako\b|holy spirit|anointing|kukua kiroho
+  seeds:
+  - roho
+  - upako
+  - anointing
+  - kiroho
+- name: Word of God & Obedience
+  pattern: neno la mungu|neno la bwana|\btii\b|kutii|amri|obey|obedience
+  seeds:
+  - neno
+  - tii
+  - amri
+  - obey
+  - obedience
+- name: Spiritual Warfare
+  pattern: shetani|ibilisi|mapepo|\bvita\b|adui|devil|demons
+  seeds:
+  - shetani
+  - ibilisi
+  - mapepo
+  - adui
+  - devil
