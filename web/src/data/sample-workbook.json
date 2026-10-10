@@ -1,0 +1,140 @@
+{
+  "sheetNames": [
+    "Sermons",
+    "Scripture",
+    "Worship Songs",
+    "Song List",
+    "Topics & Verses"
+  ],
+  "missing": [],
+  "sermons": [
+    {
+      "Date": "2025-06-15",
+      "Title": "WORD || 15 JUNE 2025",
+      "URL": "https://www.youtube.com/watch?v=FixSermon1a",
+      "Sermon start": "0:00:00",
+      "Sermon end": "0:21:00",
+      "Start link": "https://www.youtube.com/watch?v=FixSermon1a&t=0s",
+      "Detection method": "whisper-sw:speech-run+start-cue+end-cue",
+      "Detection confidence": "high",
+      "Transcript source": "whisper-sw",
+      "Preacher": "Not detected",
+      "Summary (extractive)": "Verbatim extract (original language, not a translation): Upendo unajenga familia siku hii. Upendo hujenga familia na ndoa. Upendo na familia vinaendelea.",
+      "Opening (original language)": "Tufungue biblia. Tusome Wakorintho wa kwanza kifungu cha kumi na tatu mstari wa nne. Upendo huvumilia. Familia inajengwa kwa upendo. Upendo hujenga familia na ndoa, na ndoa inasimama pale upendo unapobaki. Leo tunasoma jinsi upendo unavyolinda familia, na jinsi ndoa inavyohitaji upendo kila siku. Hi",
+      "Broad theme": "Love & Relationships",
+      "Message": "Upendo unajenga familia siku hii.",
+      "Main passage": "1 Corinthians 13:4",
+      "Main passage source": "main text (auto, verify)",
+      "Scripture refs (high/medium)": "Psalms 23:1; 1 Corinthians 13:4",
+      "Low-confidence refs flagged": "0",
+      "Summary source": "extractive-lexical",
+      "Theme method": "keyword-seed"
+    }
+  ],
+  "scripture": [
+    {
+      "Stream date": "2025-06-15",
+      "Title": "WORD || 15 JUNE 2025",
+      "Reference": "1 Corinthians 13:4",
+      "Book": "1 Corinthians",
+      "Confidence": "high",
+      "Flag / reason": "",
+      "Timestamp": "0:00:00",
+      "Link": "https://www.youtube.com/watch?v=FixSermon1a&t=0s",
+      "Matched text": "Wakorintho wa kwanza kifungu cha kumi na tatu mstari wa nne",
+      "Transcript snippet": "Tufungue biblia. Tusome Wakorintho wa kwanza kifungu cha kumi na tatu mstari wa nne. Upendo huvumilia. Familia inajengwa kwa upendo. Upendo hujenga familia na ndoa, na ndoa inasimama pale upendo unapobak"
+    },
+    {
+      "Stream date": "2025-06-15",
+      "Title": "WORD || 15 JUNE 2025",
+      "Reference": "Psalms 23:1",
+      "Book": "Psalms",
+      "Confidence": "high",
+      "Flag / reason": "",
+      "Timestamp": "0:08:00",
+      "Link": "https://www.youtube.com/watch?v=FixSermon1a&t=480s",
+      "Matched text": "Zaburi sura ya ishirini na tatu mstari wa kwanza",
+      "Transcript snippet": "jw wjx wjy wjz wka wkb wkc wkd wke wkf wkg wkh wki wkj wkk wkl wkm wkn wko wkp wkq wkr wks wkt wku wkv wkw wkx wky wkz. Zaburi sura ya ishirini na tatu mstari wa kwanza. Bwana ndiye mchungaji wangu na upendo wake ni wa milele. wli wlj wlk wll wlm wln wlo wlp wlq wlr wls wlt wlu wlv wlw w"
+    }
+  ],
+  "worshipSongs": [
+    {
+      "Stream date": "2025-06-15",
+      "Stream title": "PRAISE AND WORSHIP || 15 JUNE 2025",
+      "Song start": "0:00:00",
+      "Song end": "0:01:29",
+      "Link at start": "https://www.youtube.com/watch?v=FixWorship1&t=0s",
+      "Lyric snippet heard": "wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu uongezeke sana wewe uongezeke mimi nipungue uongezeke yesu",
+      "Official song title": "Uongezeke Yesu",
+      "Original artist": "Boaz Danken",
+      "Official YouTube link": "https://www.youtube.com/watch?v=YG7ajzYyE1I",
+      "Match method": "Whisper transcript (medium, sw); song-cache lyric match: 4 key phrase(s) in 3 of 3 30-s window(s)",
+      "Confidence": "high",
+      "Notes": "Published worship song. Official video on the artist's channel."
+    },
+    {
+      "Stream date": "2025-06-15",
+      "Stream title": "PRAISE AND WORSHIP || 15 JUNE 2025",
+      "Song start": "0:03:20",
+      "Song end": "0:03:40",
+      "Link at start": "https://www.youtube.com/watch?v=FixWorship1&t=200s",
+      "Lyric snippet heard": "nje ya lango nje ya lango",
+      "Official song title": "Nje ya Lango (verify)",
+      "Original artist": "Florence Mureithi",
+      "Official YouTube link": "https://www.youtube.com/watch?v=jUZ0YrQB2EA",
+      "Match method": "Whisper transcript (medium, sw); song-cache lyric match: 1 key phrase(s) in 1 of 1 30-s window(s)",
+      "Confidence": "low",
+      "Notes": "Weak match - verify. Published worship song."
+    },
+    {
+      "Stream date": "2025-06-15",
+      "Stream title": "PRAISE AND WORSHIP || 15 JUNE 2025",
+      "Song start": "0:05:00",
+      "Song end": "0:06:15",
+      "Link at start": "https://www.youtube.com/watch?v=FixWorship1&t=300s",
+      "Lyric snippet heard": "lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lalala lal",
+      "Official song title": "Unidentified",
+      "Original artist": "",
+      "Official YouTube link": "",
+      "Match method": "Whisper transcript (medium, sw); no confident lyric match",
+      "Confidence": "low",
+      "Notes": ""
+    }
+  ],
+  "songList": [
+    {
+      "Official title": "Uongezeke Yesu",
+      "Original artist": "Boaz Danken",
+      "Official YouTube link": "https://www.youtube.com/watch?v=YG7ajzYyE1I",
+      "Times sung (streams)": "1",
+      "Dates sung": "2025-06-15",
+      "Song segments": "1"
+    },
+    {
+      "Official title": "Excluded: 2 segments (1 titled but low-confidence / verify, 1 unidentified) out of 3 in Worship Songs. A title stays on this list only when at least two distinct cached phrases were heard in at least two 30-second windows, or the match was only one step weaker than that.",
+      "Original artist": "",
+      "Official YouTube link": "",
+      "Times sung (streams)": "",
+      "Dates sung": "",
+      "Song segments": ""
+    }
+  ],
+  "topics": [
+    {
+      "Level": "THEME",
+      "Theme / sermon message": "Love & Relationships",
+      "Summary": "1 sermon(s). Most common main texts: 1 Corinthians 13 (1)",
+      "Sermon date(s)": "2025-06-15",
+      "Bible verses quoted (canonical order; times quoted; link to first quote)": "Psalms 23:1 - quoted 1x - https://www.youtube.com/watch?v=FixSermon1a&t=480s\n1 Corinthians 13:4 [main text (auto, verify)] - quoted 1x - https://www.youtube.com/watch?v=FixSermon1a&t=0s",
+      "Unique verses": "2"
+    },
+    {
+      "Level": "sermon",
+      "Theme / sermon message": "Upendo unajenga familia siku hii.",
+      "Summary": "Verbatim extract (original language, not a translation): Upendo unajenga familia siku hii. Upendo hujenga familia na ndoa. Upendo na familia vinaendelea.",
+      "Sermon date(s)": "2025-06-15",
+      "Bible verses quoted (canonical order; times quoted; link to first quote)": "Psalms 23:1 - quoted 1x - https://www.youtube.com/watch?v=FixSermon1a&t=480s\n1 Corinthians 13:4 [main text (auto, verify)] - quoted 1x - https://www.youtube.com/watch?v=FixSermon1a&t=0s",
+      "Unique verses": "2"
+    }
+  ]
+}

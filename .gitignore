@@ -219,6 +219,10 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# The Python template ignores every lib/ directory. The web sources live in one.
+!web/src/lib/
+!web/src/lib/**
+
 # sermon-insights local runs: audio, caches, databases, channel dumps
 /data/
 /cache/
