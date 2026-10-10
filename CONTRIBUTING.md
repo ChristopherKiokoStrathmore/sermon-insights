@@ -84,6 +84,14 @@ languages: [sw, fr]
 
 Run `pytest tests/test_scripture.py` and `ruff check`.
 
+The browser matcher reads a JSON copy of these YAML files. From `web/`:
+
+```bash
+npm run sync
+```
+
+Commit `web/src/lib/scripture/maps.generated.json` with the YAML change. CI fails if they drift. The Vitest cases in `web/src/lib/scripture/match.test.ts` mirror the Python scripture tests, including the Exodus fixture.
+
 Whisper's `whisper.language` is a separate setting (a faster-whisper language code). The book map does not select the ASR language.
 
 ## Themes and songs

@@ -184,6 +184,30 @@ Automated downloading can sit outside YouTube's Terms of Service even when the v
 - The English summary column is not an English translation.
 - A preacher name is only filled when a title word (Pastor, Askofu, Mtume, …) sits in front of a capitalised name, and even then it is marked `(verify)`.
 
+## Web app
+
+The site in `web/` does not run the pipeline. A host that only serves the frontend, including Vercel, cannot call yt-dlp or Whisper, and YouTube blocks many of those IP ranges. The pages are static HTML:
+
+| Page | What it does |
+| --- | --- |
+| `/` | What the package does, the stage list, the local quickstart, the Colab path, the ethics note |
+| `/explore` | The sanitised sample workbook: five sheets, search, and `(verify)` rows marked |
+| `/workbook` | Your own `.xlsx`, parsed with SheetJS in the browser. Nothing is uploaded |
+| `/scripture` | The Kiswahili/English reference matcher, compiled from the same YAML as the Python package |
+
+```bash
+cd web
+npm ci
+npm test
+npm run build
+```
+
+`npm run sync` rewrites `web/src/lib/scripture/maps.generated.json` from `src/sermon_insights/languages/*.yaml`, and `web/src/data/sample-workbook.json` from the sample workbook. `npm run build` runs that sync, then exports the site to `web/out`.
+
+On Vercel, set the project **Root Directory** to `web`. No environment variables. The framework preset is Next.js; the app sets `output: "export"`.
+
+Live site: not deployed from this repository yet. After the first Vercel deploy, put the URL here.
+
 ## Tests
 
 ```bash

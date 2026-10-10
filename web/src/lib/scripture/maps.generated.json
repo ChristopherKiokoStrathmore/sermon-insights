@@ -1,0 +1,1149 @@
+{
+  "generatedFrom": "src/sermon_insights/languages",
+  "languages": {
+    "en": {
+      "language": "en",
+      "name": "English",
+      "books": [
+        {
+          "name": "Genesis",
+          "aliases": [
+            "genesis"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Exodus",
+          "aliases": [
+            "exodus"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Leviticus",
+          "aliases": [
+            "leviticus"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Numbers",
+          "aliases": [
+            "numbers"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Deuteronomy",
+          "aliases": [
+            "deuteronomy"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Joshua",
+          "aliases": [
+            "joshua"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Judges",
+          "aliases": [
+            "judges"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ruth",
+          "aliases": [
+            "ruth"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "1 Samuel",
+          "aliases": [
+            "1 samuel",
+            "first samuel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Samuel",
+          "aliases": [
+            "2 samuel",
+            "second samuel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Kings",
+          "aliases": [
+            "1 kings",
+            "first kings"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Kings",
+          "aliases": [
+            "2 kings",
+            "second kings"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Chronicles",
+          "aliases": [
+            "1 chronicles",
+            "first chronicles"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Chronicles",
+          "aliases": [
+            "2 chronicles",
+            "second chronicles"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ezra",
+          "aliases": [
+            "ezra"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Nehemiah",
+          "aliases": [
+            "nehemiah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Esther",
+          "aliases": [
+            "esther"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Job",
+          "aliases": [
+            "job"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Psalms",
+          "aliases": [
+            "psalm",
+            "psalms"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Proverbs",
+          "aliases": [
+            "proverbs"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ecclesiastes",
+          "aliases": [
+            "ecclesiastes"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Song of Songs",
+          "aliases": [
+            "song of songs",
+            "song of solomon"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Isaiah",
+          "aliases": [
+            "isaiah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Jeremiah",
+          "aliases": [
+            "jeremiah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Lamentations",
+          "aliases": [
+            "lamentations"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ezekiel",
+          "aliases": [
+            "ezekiel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Daniel",
+          "aliases": [
+            "daniel"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Hosea",
+          "aliases": [
+            "hosea"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Joel",
+          "aliases": [
+            "joel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Amos",
+          "aliases": [
+            "amos"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Obadiah",
+          "aliases": [
+            "obadiah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Jonah",
+          "aliases": [
+            "jonah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Micah",
+          "aliases": [
+            "micah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Nahum",
+          "aliases": [
+            "nahum"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Habakkuk",
+          "aliases": [
+            "habakkuk"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Zephaniah",
+          "aliases": [
+            "zephaniah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Haggai",
+          "aliases": [
+            "haggai"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Zechariah",
+          "aliases": [
+            "zechariah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Malachi",
+          "aliases": [
+            "malachi"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Matthew",
+          "aliases": [
+            "matthew"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Mark",
+          "aliases": [
+            "mark"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Luke",
+          "aliases": [
+            "luke"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "John",
+          "aliases": [
+            "john"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Acts",
+          "aliases": [
+            "acts"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Romans",
+          "aliases": [
+            "romans"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Corinthians",
+          "aliases": [
+            "1 corinthians",
+            "first corinthians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Corinthians",
+          "aliases": [
+            "2 corinthians",
+            "second corinthians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Galatians",
+          "aliases": [
+            "galatians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ephesians",
+          "aliases": [
+            "ephesians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Philippians",
+          "aliases": [
+            "philippians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Colossians",
+          "aliases": [
+            "colossians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Thessalonians",
+          "aliases": [
+            "1 thessalonians",
+            "first thessalonians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Thessalonians",
+          "aliases": [
+            "2 thessalonians",
+            "second thessalonians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Timothy",
+          "aliases": [
+            "1 timothy",
+            "first timothy"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Timothy",
+          "aliases": [
+            "2 timothy",
+            "second timothy"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Titus",
+          "aliases": [
+            "titus"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Philemon",
+          "aliases": [
+            "philemon"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Hebrews",
+          "aliases": [
+            "hebrews"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "James",
+          "aliases": [
+            "james"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "1 Peter",
+          "aliases": [
+            "1 peter",
+            "first peter"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Peter",
+          "aliases": [
+            "2 peter",
+            "second peter"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 John",
+          "aliases": [
+            "1 john",
+            "first john"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 John",
+          "aliases": [
+            "2 john",
+            "second john"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "3 John",
+          "aliases": [
+            "3 john",
+            "third john"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Jude",
+          "aliases": [
+            "jude"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Revelation",
+          "aliases": [
+            "revelation"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "bare_skip_aliases": [
+        "mark",
+        "james",
+        "john",
+        "job",
+        "ruth",
+        "amos",
+        "daniel",
+        "jude",
+        "hosea",
+        "ezra",
+        "luke"
+      ],
+      "number_words": {
+        "units": {},
+        "tens": {},
+        "hundred": null
+      },
+      "chapter_cues": [
+        "chapter",
+        "chap"
+      ],
+      "verse_cues": [
+        "from\\s+verse",
+        "verse",
+        "verses"
+      ],
+      "range_cues": [
+        "to",
+        "-"
+      ]
+    },
+    "sw": {
+      "language": "sw",
+      "name": "Kiswahili",
+      "books": [
+        {
+          "name": "Genesis",
+          "aliases": [
+            "mwanzo",
+            "genesis"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Exodus",
+          "aliases": [
+            "kutoka",
+            "exodus"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Leviticus",
+          "aliases": [
+            "mambo ya walawi",
+            "walawi",
+            "leviticus"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Numbers",
+          "aliases": [
+            "hesabu",
+            "numbers"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Deuteronomy",
+          "aliases": [
+            "kumbukumbu la torati",
+            "kumbukumbu",
+            "deuteronomy"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Joshua",
+          "aliases": [
+            "yoshua",
+            "joshua"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Judges",
+          "aliases": [
+            "waamuzi",
+            "judges"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ruth",
+          "aliases": [
+            "ruthu",
+            "ruth"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "1 Samuel",
+          "aliases": [
+            "1 samweli",
+            "samweli wa kwanza",
+            "first samuel",
+            "1 samuel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Samuel",
+          "aliases": [
+            "2 samweli",
+            "samweli wa pili",
+            "second samuel",
+            "2 samuel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Kings",
+          "aliases": [
+            "1 wafalme",
+            "wafalme wa kwanza",
+            "first kings",
+            "1 kings"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Kings",
+          "aliases": [
+            "2 wafalme",
+            "wafalme wa pili",
+            "second kings",
+            "2 kings"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Chronicles",
+          "aliases": [
+            "1 mambo ya nyakati",
+            "mambo ya nyakati wa kwanza",
+            "1 chronicles"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Chronicles",
+          "aliases": [
+            "2 mambo ya nyakati",
+            "mambo ya nyakati wa pili",
+            "2 chronicles"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ezra",
+          "aliases": [
+            "ezra"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Nehemiah",
+          "aliases": [
+            "nehemia",
+            "nehemiah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Esther",
+          "aliases": [
+            "esta",
+            "esther"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Job",
+          "aliases": [
+            "ayubu"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Psalms",
+          "aliases": [
+            "zaburi",
+            "psalm",
+            "psalms"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Proverbs",
+          "aliases": [
+            "mithali",
+            "methali",
+            "proverbs"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ecclesiastes",
+          "aliases": [
+            "mhubiri",
+            "ecclesiastes"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Song of Songs",
+          "aliases": [
+            "wimbo ulio bora",
+            "song of solomon",
+            "song of songs"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Isaiah",
+          "aliases": [
+            "isaya",
+            "isaiah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Jeremiah",
+          "aliases": [
+            "yeremia",
+            "jeremiah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Lamentations",
+          "aliases": [
+            "maombolezo",
+            "lamentations"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ezekiel",
+          "aliases": [
+            "ezekieli",
+            "ezekiel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Daniel",
+          "aliases": [
+            "danieli",
+            "daniel"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Hosea",
+          "aliases": [
+            "hosea"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Joel",
+          "aliases": [
+            "yoeli",
+            "joel"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Amos",
+          "aliases": [
+            "amosi",
+            "amos"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Obadiah",
+          "aliases": [
+            "obadia"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Jonah",
+          "aliases": [
+            "yona",
+            "jonah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Micah",
+          "aliases": [
+            "mika",
+            "micah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Nahum",
+          "aliases": [
+            "nahumu"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Habakkuk",
+          "aliases": [
+            "habakuki",
+            "habakkuk"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Zephaniah",
+          "aliases": [
+            "sefania"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Haggai",
+          "aliases": [
+            "hagai"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Zechariah",
+          "aliases": [
+            "zekaria",
+            "zechariah"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Malachi",
+          "aliases": [
+            "malaki",
+            "malachi"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Matthew",
+          "aliases": [
+            "mathayo",
+            "matayo",
+            "matthew"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Mark",
+          "aliases": [
+            "marko",
+            "mark"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Luke",
+          "aliases": [
+            "luka",
+            "luke"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "John",
+          "aliases": [
+            "yohana",
+            "yohane",
+            "john"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Acts",
+          "aliases": [
+            "matendo ya mitume",
+            "matendo",
+            "acts"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Romans",
+          "aliases": [
+            "warumi",
+            "romans"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Corinthians",
+          "aliases": [
+            "1 wakorintho",
+            "wakorintho wa kwanza",
+            "first corinthians",
+            "1 corinthians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Corinthians",
+          "aliases": [
+            "2 wakorintho",
+            "wakorintho wa pili",
+            "second corinthians",
+            "2 corinthians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Galatians",
+          "aliases": [
+            "wagalatia",
+            "galatians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Ephesians",
+          "aliases": [
+            "waefeso",
+            "ephesians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Philippians",
+          "aliases": [
+            "wafilipi",
+            "philippians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Colossians",
+          "aliases": [
+            "wakolosai",
+            "colossians"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Thessalonians",
+          "aliases": [
+            "1 wathesalonike",
+            "wathesalonike wa kwanza"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Thessalonians",
+          "aliases": [
+            "2 wathesalonike",
+            "wathesalonike wa pili"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 Timothy",
+          "aliases": [
+            "1 timotheo",
+            "timotheo wa kwanza",
+            "first timothy"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Timothy",
+          "aliases": [
+            "2 timotheo",
+            "timotheo wa pili",
+            "second timothy"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Titus",
+          "aliases": [
+            "tito",
+            "titus"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Philemon",
+          "aliases": [
+            "filemoni"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Hebrews",
+          "aliases": [
+            "waebrania",
+            "hebrews"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "James",
+          "aliases": [
+            "yakobo",
+            "james"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "1 Peter",
+          "aliases": [
+            "1 petro",
+            "petro wa kwanza",
+            "first peter"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 Peter",
+          "aliases": [
+            "2 petro",
+            "petro wa pili",
+            "second peter"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "1 John",
+          "aliases": [
+            "1 yohana",
+            "yohana wa kwanza",
+            "first john"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "2 John",
+          "aliases": [
+            "2 yohana",
+            "yohana wa pili",
+            "second john",
+            "2 john"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "3 John",
+          "aliases": [
+            "3 yohana",
+            "yohana wa tatu",
+            "third john",
+            "3 john"
+          ],
+          "ambiguous": false
+        },
+        {
+          "name": "Jude",
+          "aliases": [
+            "yuda",
+            "jude"
+          ],
+          "ambiguous": true
+        },
+        {
+          "name": "Revelation",
+          "aliases": [
+            "ufunuo",
+            "revelation"
+          ],
+          "ambiguous": false
+        }
+      ],
+      "bare_skip_aliases": [
+        "mark",
+        "james",
+        "john",
+        "luka",
+        "yona",
+        "mika",
+        "tito",
+        "yuda",
+        "hesabu",
+        "kutoka",
+        "mwanzo",
+        "matendo",
+        "mhubiri"
+      ],
+      "number_words": {
+        "units": {
+          "moja": 1,
+          "mmoja": 1,
+          "kwanza": 1,
+          "mbili": 2,
+          "pili": 2,
+          "tatu": 3,
+          "nne": 4,
+          "tano": 5,
+          "sita": 6,
+          "saba": 7,
+          "nane": 8,
+          "tisa": 9,
+          "kenda": 9
+        },
+        "tens": {
+          "kumi": 10,
+          "ishirini": 20,
+          "thelathini": 30,
+          "arobaini": 40,
+          "hamsini": 50,
+          "sitini": 60,
+          "sabini": 70,
+          "themanini": 80,
+          "tisini": 90
+        },
+        "hundred": "mia"
+      },
+      "chapter_cues": [
+        "sura\\s+ya",
+        "mlango\\s+wa",
+        "mlango\\s+ya",
+        "kifungu\\s+cha",
+        "chapter",
+        "chap",
+        "sura"
+      ],
+      "verse_cues": [
+        "mstari\\s+wa",
+        "mistari",
+        "mstari",
+        "mshari\\s+wa",
+        "from\\s+verse",
+        "verse",
+        "aya\\s+ya",
+        "verses"
+      ],
+      "range_cues": [
+        "hadi",
+        "mpaka",
+        "to",
+        "-"
+      ]
+    }
+  }
+}
