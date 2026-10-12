@@ -1,6 +1,5 @@
-# Feasibility probe only. One public test video, not a church channel.
-# Records whether a GitHub-hosted runner can list a channel, fetch auto-subs,
-# and download a few seconds of audio. The job summary is the result.
+# Feasibility probe for GitHub-hosted runners. No pipeline, no cookies, no church channel.
+# Three sequential jobs so a single push shows whether the results stay the same.
 
 name: yt-probe
 
@@ -16,171 +15,35 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        run: [1, 2, 3]
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install yt-dlp, ffmpeg, and the package
+      - name: Install yt-dlp, the EJS scripts, ffmpeg, and the package
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
           python -m pip install -e .
+          python -m pip install "yt-dlp[default]==2026.8.19"
           echo "yt-dlp $(yt-dlp --version)"
-          sermon --version
+          echo "node $(node --version)"
+          python -c "import importlib.metadata as m; print('youtube-transcript-api', m.version('youtube-transcript-api')); print('yt-dlp-ejs', m.version('yt-dlp-ejs'))"
 
       - name: Probe public YouTube from this runner
-        run: |
-          set +e
-          # YouTube's own channel, and the short youtube-dl/yt-dlp test video
-          # (public, not a church, about ten seconds).
-          CHANNEL_URL="https://www.youtube.com/@YouTube/videos"
-          VIDEO_URL="https://www.youtube.com/watch?v=BaW_jenozKc"
-          mkdir -p probe-out/subs probe-out/audio
-
-          run_check() {
-            local id="$1"
-            shift
-            printf '%s\n' "timeout 180 $*" > "probe-out/${id}.cmd"
-            timeout 180 "$@" > "probe-out/${id}.stdout" 2> "probe-out/${id}.stderr"
-            echo "$?" > "probe-out/${id}.code"
-          }
-
-          run_check flat-playlist \
-            yt-dlp --flat-playlist -J --no-warnings --playlist-end 2 \
-              --retries 2 --socket-timeout 20 "$CHANNEL_URL"
-
-          run_check auto-subs \
-            yt-dlp --write-auto-subs --sub-langs "en-orig,en" --sub-format json3 \
-              --skip-download --sleep-requests 1 --sleep-subtitles 1 --no-overwrites \
-              --no-playlist --retries 2 --socket-timeout 20 \
-              -o "probe-out/subs/%(id)s" "$VIDEO_URL"
-
-          run_check audio-section \
-            yt-dlp --no-playlist --no-warnings -f "worstaudio/bestaudio/worst" \
-              --download-sections "*0:00-0:05" --force-keyframes-at-cuts \
-              --max-filesize 30M --retries 2 --socket-timeout 20 \
-              -o "probe-out/audio/%(id)s.%(ext)s" "$VIDEO_URL"
-
-          python3 - << 'PY'
-          import os
-          import pathlib
-          import re
-
-          CHANNEL = os.environ["CHANNEL"]
-          VIDEO = os.environ["VIDEO"]
-          summary_path = os.environ["GITHUB_STEP_SUMMARY"]
-          root = pathlib.Path("probe-out")
-          block_needles = (
-              "Sign in to confirm you're not a bot",
-              "confirm you’re not a bot",
-              "HTTP Error 403",
-              "HTTP Error 429",
-              "403: Forbidden",
-              "429:",
-          )
-
-          def tail(path, limit=6000):
-              text = path.read_text(encoding="utf-8", errors="replace") if path.is_file() else ""
-              if len(text) <= limit:
-                  return text
-              return text[:limit] + f"\n… truncated, {len(text)} bytes total\n"
-
-          def classify(blob):
-              hits = [needle for needle in block_needles if needle.lower() in blob.lower() or needle in blob]
-              # 403/429 as bare status codes in yt-dlp's "HTTP Error NNN" or "giving up after"
-              if re.search(r"\b403\b", blob) and "403" not in " ".join(hits):
-                  hits.append("403")
-              if re.search(r"\b429\b", blob) and not any("429" in hit for hit in hits):
-                  hits.append("429")
-              return hits
-
-          lines = ["# yt-dlp probe from ubuntu-latest", ""]
-          lines.append("Public targets only. Not a church channel.")
-          lines.append("")
-          lines.append(f"- Channel tab: `{CHANNEL}`")
-          lines.append(f"- Video: `{VIDEO}` (`BaW_jenozKc`, the youtube-dl/yt-dlp test video)")
-          lines.append("")
-          all_blob = []
-          checks = [
-              ("a", "flat-playlist", "yt-dlp --flat-playlist on @YouTube/videos"),
-              ("b", "auto-subs", "auto-subs for the test video"),
-              ("c", "audio-section", "a few seconds of audio via --download-sections"),
-          ]
-          for letter, key, title in checks:
-              code = (root / f"{key}.code").read_text(encoding="utf-8").strip()
-              stdout = tail(root / f"{key}.stdout")
-              stderr = tail(root / f"{key}.stderr")
-              cmd = (root / f"{key}.cmd").read_text(encoding="utf-8").strip()
-              extra = ""
-              passed = code == "0"
-              if key == "flat-playlist" and passed:
-                  import json
-                  try:
-                      data = json.loads((root / f"{key}.stdout").read_text(encoding="utf-8"))
-                      entries = data.get("entries") or []
-                      extra = f"Entries returned: {len(entries)}."
-                      if entries:
-                          extra += " First title: " + str(entries[0].get("title") or "")
-                  except Exception as exc:
-                      passed = False
-                      extra = f"Exit 0 but stdout was not playlist JSON: {exc}"
-              if key == "auto-subs" and passed:
-                  files = list((root / "subs").glob("*"))
-                  extra = "Subtitle files: " + (", ".join(p.name for p in files) or "(none)")
-                  if not files:
-                      passed = False
-                      extra += ". yt-dlp exited 0 but wrote no subtitle file."
-              if key == "audio-section" and passed:
-                  files = [p for p in (root / "audio").glob("*") if p.is_file() and p.stat().st_size > 0]
-                  extra = "Audio files: " + (", ".join(f"{p.name} ({p.stat().st_size} bytes)" for p in files) or "(none)")
-                  if not files:
-                      passed = False
-                      extra += ". yt-dlp exited 0 but wrote no audio."
-              status = "pass" if passed else "fail"
-              blob = stdout + "\n" + stderr
-              all_blob.append(blob)
-              lines.append(f"## ({letter}) {title}: **{status}**")
-              lines.append("")
-              lines.append(f"Exit code: `{code}`")
-              lines.append("")
-              lines.append("Command:")
-              lines.append("")
-              lines.append("```")
-              lines.append(cmd)
-              lines.append("```")
-              if extra:
-                  lines.append("")
-                  lines.append(extra)
-              lines.append("")
-              lines.append("stderr:")
-              lines.append("")
-              lines.append("```")
-              lines.append(stderr.rstrip() or "(empty)")
-              lines.append("```")
-              if not passed and stdout.strip():
-                  lines.append("")
-                  lines.append("stdout:")
-                  lines.append("")
-                  lines.append("```")
-                  lines.append(stdout.rstrip()[:2000])
-                  lines.append("```")
-              lines.append("")
-          combined = "\n".join(all_blob)
-          hits = classify(combined)
-          lines.append("## Datacenter block signals")
-          lines.append("")
-          if hits:
-              lines.append("Matched: " + ", ".join(f"`{hit}`" for hit in hits))
-          else:
-              lines.append("No match for `Sign in to confirm you're not a bot`, HTTP 403, or HTTP 429 in the combined output.")
-          lines.append("")
-          pathlib.Path(summary_path).write_text("\n".join(lines) + "\n", encoding="utf-8")
-          print("\n".join(lines))
-          PY
         env:
-          CHANNEL: https://www.youtube.com/@YouTube/videos
-          VIDEO: https://www.youtube.com/watch?v=BaW_jenozKc
+          PROBE_RUN: ${{ matrix.run }}
+          PYTHONUNBUFFERED: "1"
+        run: python .github/workflows/yt-probe.py
